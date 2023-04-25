@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persnol Portfolio Website</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/1ac4d96e28.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="hearder">
+        <img src="" alt="" class="Rt">
+       <div class="container">
+           <nav>
+               <ul id="sidemenu">
+                   <li><a href="#hearder">Home</a></li>
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#services">Services</a></li>
+                   <li><a href="#portfolio">Portfolio</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                   <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+           </nav>
+           <div class="header-text">
+                <P>Software-Engineer</P>
+               <p>Front End Developer</p>
+               <h1>Hi,I'm <span>Sameer Baliyan</span>  From India</h1>
+           </div>
+       </div>
+    </div>
+    <!-----------about------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   
+                    <div class="about-col-2">
+                    <h1 class="Moniter">About Me</h1>
+                   <p>I'm a motivated, skilled JavaScript developer with extensive front-
+                    end . I seek out teams that value engineering
+                    culture and cross-functional collaboration. My ambition drives me to
+                    continuously improve my craft - I always strive to stay one step
+                    ahead of the competition. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skilss')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tabs" id="skills">
+                        <ul>
+                           <li><span>HTML5</span><br/></li>
+                           <li><span>CSS3</span><br/></li>
+                           <li><span>JavaSCRIPT</span><br/></li>
+                           <li><span>BOOTSTRAP5</span><br/></li>
+                           <li><span>TAILWIND CSS</span><br/></li>
+                           <li><span>REACT</span><br/></li>
+                           <li><span>NODE.JS</span><br/></li>
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents" id="experience">
+                        <ul>
+                           <li><span>FRESHER</span><br/></li>
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                           <li><span>SOFTWARE-ENGINEER</span><br/></li>
+                           <li><span>FRONT-END DEVELOPER</span><br/></li>
+                        </ul>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <!-----------services------------>
+        <!-- <div id="services">
+            <div class="container">
+                <h1 class="Moniter">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Software-Engineer</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat libero animi excepturi beatae cumque non pariatur sequi, commodi saepe architecto earum corrupti quas nulla doloremque? Dolores deserunt voluptatum quibusdam quos.</p>
+                        <a href="#">Learm More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Front-End-Developer</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, neque! Accusantium minus unde voluptatibus at magni consequuntur similique explicabo ab quaerat, nostrum quod tempora quia tenetur! Quis ad iure ea.</p>
+                        <a href="#">Learm More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Web Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officia veniam soluta atque ipsa reprehenderit facere aspernatur incidunt labore perferendis nam sit at optio molestiae voluptatibus laboriosam, aliquid eum aliquam?</p>
+                        <a href="#">Learm More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-----------Portfolio------------>
+    <div id="portfolio">
+
+         <div class="container">
+
+            <h1 class="Moniter">My Work</h1>
+           <div class="work-list">
+               <div class="work">
+                  <img src="lamborghini car images" alt="">
+                  <div class="layer">
+                      <h3>Lomborgini Car Game</h3>
+                      <p>I have created my own Lomborgini Car Game project.  And this is my project  And i am use HTML CSS JavaSCRIPT And other framework.</p>
+                      <a href="https://caranimationgame.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+               </div>
+               <div class="work">
+                <img src="spotify4.png" alt="">
+                <div class="layer">
+                    <h3>Spotify</h3>
+                    <p>I have created my own Spotify project.  And this is my project And i am use HTML CSS JavaSCRIPT And other framework.</p>
+                    <a href="https://cpotifyclone.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+             </div>
+             <div class="work">
+                <img src="download 5.png" alt="">
+                <div class="layer">
+                    <h3>Tic Tac Toe Game</h3>
+                    <p>I have created my own Tic Tac Toe Game project.  And this is my project  And i am use HTML CSS JavaSCRIPT And other framework.</p>
+                    <a href="https://tictactoei.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+             </div>
+             <div class="work">
+                <img src="download.jpg" alt="">
+                <div class="layer">
+                    <h3>Multipel Color Choose Website</h3>
+                    <p>I have created my own Multipel Color Choose Website.  And this is my project  And i am use HTML CSS JavaSCRIPT And other framework.</p>
+                    <a href="https://sameerbaliyancolors.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+             </div>
+             <div class="work">
+                <img src="1" alt="">
+                <div class="layer">
+                    <h3>Myntra-clone-Website</h3>
+                    <p>I have created my own Myntra clone project.  And this is my project  And i am use HTML CSS JavaSCRIPT And other framework.</p>
+                    <a href="https://mintrawesite.netlify.app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+             </div>
+           </div>
+           <a href="https://veeshowebsite.netlify.app" class="btn">See more</a>
+         </div>
+    </div>
+     <!-----------Contact------------>
+     <div id="contact">
+         <div class="container">
+             <div class="row">
+                 <div class="contact-left">
+                     <h1 class="sub-title">Contact Me</h1>
+                     <p> <i class="fa-sharp fa-solid fa-paper-plane"></i>sameerbaliyan868@gmail.com</p>
+                     <p> <i class="fa-solid fa-phone"></i>72481-81467</p>
+                     <div class="social-icons">
+                         <a href="https://www.facebook.com/sameer.baliyan.524?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                         <a href="https://instagram.com/sameer_baliyan15?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+                         <a href="https://www.linkedin.com/in/sameer-baliyan-182532271"><i class="fa-brands fa-linkedin"></i></i></a>
+                         <a href="https://github.com/Sameerbaliyan"><i class="fa-brands fa-github"></i></i></a>
+                     </div>
+                     <a href="RESUME.pdf" download class="btn btn2">Download CV</a>
+                 </div>
+                 <div class="contact-right">
+                     <form name ="submit-to-google-sheet">
+                         <input type="text" name="Name" id="" placeholder="Your Name" required>
+                         <input type="email" name="Email" id="" placeholder="Your Email" required>
+                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                         <button type="submit" class="btn btn2">Submit</button>
+                     </form>
+                     <span id="msg"></span>
+                 </div>
+             </div>
+         </div>
+         <div class="copyright">
+            <p>© 2023, Made with <i class="fa-solid fa-heart"></i> by <span> Sameer Baliyan </span></p>
+        </div>
+     </div>
+
+
+
+
+
+
+
+</body>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+          tablink.classList.remove("active-links")
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tabs")
+      }
+       
+      event.currentTarget.classList.add("active-links");
+      document.getElementById(tabname).classList.add("active-tabs")
+
+    }
+</script>
+
+<script>
+    var sidemenu =document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbygETDedkk-EhhYiRXdWoR7o9mLYjtkQHVazvmAu0LoHfNnxzoRMqSBMX_f3gIpHfcvSw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML ="Message sent me succesfully";
+            setTimeout(function(){
+                msg.innerHTML ="";
+            },5000);
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</html>
